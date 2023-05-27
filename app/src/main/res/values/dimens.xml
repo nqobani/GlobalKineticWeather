@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_x_small">4dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_normal">16dp</dimen>
+    <dimen name="space_large">28dp</dimen>
+    <dimen name="space_xx_large">102dp</dimen>
+
+    <dimen name="space_list">24dp</dimen>
+    <dimen name="space_dialog_padding">24dp</dimen>
+
+    <dimen name="small_icon">44dp</dimen>
+    <dimen name="large_icon">100dp</dimen>
+
+    <dimen name="text_regular">16sp</dimen>
+    <dimen name="text_semi_regular">14sp</dimen>
+    <dimen name="text_subtitle">20sp</dimen>
+    <dimen name="text_title">36sp</dimen>
+    <dimen name="text_large_title">72sp</dimen>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Global Kinetic Weather</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="weather_forecast_title">5-DAY FORECAST</string>
+    <string name="weather_icon_desc">Weather Icon</string>
+    <string name="current_weather_icon">Current Weather Icon</string>
+    <string name="location_request_title">Allow <b>Weather App</b> to access your location?</string>
+    <string name="location_request_sub_text">You can turn this feature on or off in Settings.</string>
+    <string name="allow">ALLOW</string>
+    <string name="deny">DENY</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="check_internet_error">Cannot load current weather info, check your internet connection and retry</string>
+    <string name="error_icon">Error icon</string>
+    <string name="app_icon">App Icon</string>
+    <string name="weather_app_is_unavailable">Weather App is unavailable</string>
+    <string name="ask_for_location_permission">Weather App requires permission to access your current location, you can turn this function on in settings.</string>
+    <string name="go_to_setting">GO TO SETTING</string>
+</resources>
