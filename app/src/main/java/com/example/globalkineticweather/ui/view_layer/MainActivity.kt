@@ -238,7 +238,8 @@ fun MainView(viewModel: WeatherViewModel) {
                             .padding(
                                 top = dimensionResource(id = R.dimen.space_xx_large),
                                 bottom = dimensionResource(id = R.dimen.space_xx_large)
-                            )
+                            ),
+                        color = OpenWeatherWhite
                     )
                 }
                 Resource.Status.ERROR -> {
@@ -414,7 +415,8 @@ fun WeatherForecastView(forecast: Resource<WeatherForecast>) {
                             .padding(
                                 top = dimensionResource(id = R.dimen.space_xx_large),
                                 bottom = dimensionResource(id = R.dimen.space_xx_large)
-                            )
+                            ),
+                        color = OpenWeatherWhite
                     )
                 }
                 Resource.Status.ERROR -> {

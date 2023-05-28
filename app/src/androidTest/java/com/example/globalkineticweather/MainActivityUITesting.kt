@@ -1,6 +1,5 @@
 package com.example.globalkineticweather
 
-import android.content.Context
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.lifecycle.ViewModelProvider
@@ -10,7 +9,6 @@ import com.example.globalkineticweather.data_layer.remote.models.CurrentWeather
 import com.example.globalkineticweather.data_layer.remote.models.WeatherForecast
 import com.example.globalkineticweather.di.AppModule
 import com.example.globalkineticweather.ui.view_layer.CurrentWeatherView
-import com.example.globalkineticweather.ui.view_layer.MainView
 import com.example.globalkineticweather.ui.view_layer.WeatherForecastView
 import com.example.globalkineticweather.ui.view_layer.WeatherViewModel
 import com.google.gson.Gson
@@ -39,8 +37,6 @@ class MainActivityUITesting {
     lateinit var weatherRepository: WeatherRepository
     private lateinit var viewModel: WeatherViewModel
     private lateinit var viewModelStore: ViewModelStore
-
-
     private lateinit var currentWeather: CurrentWeather
     private lateinit var weatherForecast: WeatherForecast
 
